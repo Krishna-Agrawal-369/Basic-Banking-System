@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-.nav-link{
-	margin-right: 15px;
-	color:#2F363F;
-	letter-spacing: 0.5px;
-	transition: 0.5s;
-}
-.navbar-brand{
-	color: #4C4B4B;
-	letter-spacing: 0.5px;
-}
-h2{
-	color: #4C4B4B;
-	letter-spacing: 0.5px;
-	font-family: raleway;
-}
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="index.php" style="color: darkblue;"><b>Sparks Bank</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.php" style="color : darkblue;"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.php" style="color : darkblue;"><b>Create User</b></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.php" style="color : darkblue;"><b>Transfer Money</b></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.php" style="color : darkblue;"><b>Transaction History</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
